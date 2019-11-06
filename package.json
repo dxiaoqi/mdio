@@ -1,0 +1,19 @@
+{
+  "name": "mdio",
+  "version": "1.0.0",
+  "description": "不能吃的多人协作编辑器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxiaoqi/mdio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dxiaoqi/mdio/issues"
+  },
+  "homepage": "https://github.com/dxiaoqi/mdio#readme"
+}
