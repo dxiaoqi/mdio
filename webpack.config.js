@@ -7,6 +7,14 @@ module.exports = {
       filename: 'budle.js',
       path: path.resolve('dist')
   },
-  modules: {},
+  module: {
+    rules: [
+      {
+        test : /\.js$/,
+        exclude: /(node_modules)/,
+        loader: 'babel-loader'
+      }
+    ]
+  },
   mode: 'development'
 }
