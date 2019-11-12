@@ -26,11 +26,11 @@ module.exports = {
             }
         ]
     },
-    resolve: {
-        alias: {
-          components: path.resolve(__dirname, 'components/')
-        }
-      },
+    // resolve: {
+    //     alias: {
+    //       Components: path.resolve(__dirname, 'components/')
+    //     }
+    //   },
     plugins: [
         new HtmlWebPackPlugin({
             template: "./view/index.html"

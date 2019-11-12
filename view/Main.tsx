@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { App } from './App';
-import { HomeComponent } from './components/index.tsx'
+import { HomeComponent } from '../components/index'
 export interface IMainProps
 {
     app: App;
@@ -17,7 +17,7 @@ export class Main extends React.Component<IMainProps, {}>
     {
         return (
             <>
-                <HomeComponent  name='hello' home='kitty'/>
+                <HomeComponent  home='kitty'/>
             </>
         );
     }

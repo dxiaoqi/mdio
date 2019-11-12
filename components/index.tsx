@@ -7,7 +7,7 @@ export interface IHomePageState {
     home: string;
   }
   
-  class HomeComponent extends React.Component<IHomePageProps, IHomePageState> {
+  export class HomeComponent extends React.Component<IHomePageProps, IHomePageState> {
     constructor(props: IHomePageProps) {
       super(props);
       this.state = {
